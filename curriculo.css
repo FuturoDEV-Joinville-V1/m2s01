@@ -1,8 +1,20 @@
-/* Seleção por id */
-#sobre {}
+/* Seleção pela tag body */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid #000;
+    margin: 5% 25%;
+    padding: 1% 10%;
+}
 
-/* Seleção por tag */
-h1 {}
+h1 {
+    margin-bottom: 0;
+}
 
-/* Seleção por classe */
-.sub-titulo {}
+ul li h3 {
+    margin-bottom: 0;
+}
+
+ul li p {
+    color: rgb(60, 60, 60);
+    margin-top: 0;
+}
